@@ -6,7 +6,7 @@ from datetime import datetime
 import requests
 
 # 1. API-Schlüssel (Hier wieder deinen Schlüssel einfügen!)
-AAPI_KEY = st.secrets["GEMINI_API_KEY"]
+API_KEY = st.secrets["GEMINI_API_KEY"]
 
 # 2. System-Prompt (unser bewährter Text)
 system_anweisung = """
